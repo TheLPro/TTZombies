@@ -1,0 +1,13 @@
+name: TTZombies
+version: '1.0'
+main: me.thelpro.ttzombies.TTZombies
+api-version: '1.20'
+authors: [TheLPro]
+website: thelpro.studio
+permissions:
+  ttz.use:
+    description: Use the plugin (spawn grave)
+    default: true
+  ttz.special:
+    description: Not be effected by plugin (no spawn grave)
+    default: op
